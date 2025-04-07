@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - master
+      - github-actions-tutorial
+
   pull_request:
     branches:
       - master
+      - github-actions-tutorial
+
   workflow_call:
   workflow_dispatch:
 
